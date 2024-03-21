@@ -1,0 +1,98 @@
+/* Global Styles
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  .timer-container {
+    margin-bottom: 20px;
+  }
+  
+  .countdown {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+
+  .user-info-container {
+    margin-bottom: 20px;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .user-list li:hover {
+    background-color: #e0e0e0;
+  }
+   */
+
+   .user-info-container {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .user-info-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ced4da; /* Gray border */
+  }
+  
+  .user-info-container input[type="text"]:focus {
+    outline: none;
+    border-color: #80bdff; /* Blue border when focused */
+  }
+  
+  .user-info-container button {
+    padding: 10px 20px;
+    margin-right: 10px; /* Add margin between buttons */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text color */
+    cursor: pointer;
+  }
+  
+  .user-info-container button:last-child {
+    margin-right: 0; /* Remove margin from last button */
+  }
+  
+  .user-info-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .user-info-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-info-container ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff; /* White background for list items */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .user-info-container ul li:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+  }
+  
